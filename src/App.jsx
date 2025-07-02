@@ -4,27 +4,27 @@ import Contact from "./Contact";
 
 const works = [
   {
-    src: "/images/category-Japanese.jpeg",
+    src: "./images/category-Japanese.jpeg",
     title: "和の調べ",
     desc: "日本の伝統美をモチーフにした重厚な鉄アート。空間に静かな存在感を与えます。"
   },
   {
-    src: "/images/hawk-2.jpeg",
+    src: "./images/hawk-2.jpeg",
     title: "鷹の羽ばたき",
     desc: "羽を広げる躍動感を、溶接技術で立体的に仕上げました。空間を引き締める存在です。"
   },
   {
-    src: "/images/sk24-owl-Large-1.jpeg",
+    src: "./images/sk24-owl-Large-1.jpeg",
     title: "フクロウの静寂",
     desc: "夜の静けさと知恵を象徴するフクロウを、金属の立体感で表現。見る角度で表情が変わります。"
   },
   {
-    src: "/images/gallery%20preview2.jpg",
+    src: "./images/gallery%20preview2.jpg",
     title: "ギャラリープレビュー",
     desc: "様々なオーダーメイド作品の一部。お客様の想いを形にしています。"
   },
   {
-    src: "/images/shigeyoshi-preview.jpg",
+    src: "./images/shigeyoshi-preview.jpg",
     title: "作家近影",
     desc: "制作現場での一コマ。金属と向き合う真摯な姿勢を感じてください。"
   },
