@@ -179,7 +179,7 @@ function Home() {
         marginBottom: 0
       }}>
         <img
-          src="./images/shigeyoshi-home.jpg"
+          src="images/shigeyoshi-home.jpg"
           alt="古賀茂好 作家写真"
           style={{
             position: 'absolute',
