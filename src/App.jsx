@@ -272,9 +272,21 @@ function Home() {
         </div>
       </section>
 
+      {/* アトリエ */}
+      <section className="section">
+        <h2 className="section-title">アトリエ</h2>
+        <div className="story" style={{background:'#f9f7f3'}}>
+          <p style={{fontSize:'1.08rem', lineHeight:2}}>
+            福岡県内の工房にて、金属工芸作品を一点一点丁寧に制作しています。<br />
+            ご見学やご相談もお気軽にどうぞ。<br />
+            <a href="https://koga-atelier.com/" target="_blank" rel="noopener noreferrer" style={{color:'#b89f5b', fontWeight:'bold', textDecoration:'underline'}}>アトリエ公式サイトはこちら</a>
+          </p>
+        </div>
+      </section>
+
       {/* CTA・問い合わせ導線 */}
       <div className="cta" style={{marginBottom:48}}>
-        <div style={{fontSize:'1.1rem', marginBottom:32}}>作品のご購入<br />下記よりお気軽にお問い合わせください。</div>
+        <div style={{fontSize:'1.1rem', marginBottom:32}}>作品のご購入等、ご要望があれば<br />下記よりお気軽にお問い合わせください。</div>
         <Link to="/contact" className="cta-btn" style={{fontSize:'1.15rem', marginTop:32, display:'inline-block'}}>お問い合わせ</Link>
       </div>
 
