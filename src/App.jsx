@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { HashRouter, Routes, Route, Link } from "react-router-dom";
 import Contact from "./Contact";
 
 const works = [
@@ -32,13 +32,13 @@ const works = [
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>,
       <HeaderNav />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
